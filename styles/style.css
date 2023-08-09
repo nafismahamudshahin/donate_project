@@ -36,3 +36,60 @@
     font-weight: bold;
     border-radius: 5px;
 }
+/* Donate today section */
+.donate-today{
+    text-align: center;
+    margin-top: 60px;
+}
+.title{
+    color: #121212;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.article{
+    color: #707070;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.select-taka{
+    display: flex;
+    align-items: center;
+    width: 58%;
+    margin: auto;
+}
+.send-taka{
+    width: 135px;
+    padding: 50px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #FAFAFA;
+    border: 1px solid #FAFAFA;
+    margin: 0px 5px;
+    color: #707070;
+}
+.send-taka:hover{
+    border: 1px solid #FF5959; 
+    color: #FF5959;
+    font-weight: bold;
+
+}
+.other-amount input{
+    padding: 10px 369px;
+    border: none;
+    margin-top: 30px;
+}
+.other-amount input:hover{
+    border: none;
+}
+.other-amount hr{
+    width: 57%;
+    margin: auto;
+    margin-bottom: 10px;
+}
