@@ -48,6 +48,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-align: center;
 }
 .article{
     color: #707070;
@@ -92,4 +93,34 @@
     width: 57%;
     margin: auto;
     margin-bottom: 10px;
+}
+/* donate plans section style */
+.donate-plan{
+    margin-top: 60px;
+}
+.donate-plan .dipo {
+    text-align: center;
+}
+.dispiction{
+    display: flex;
+    width: 65%;
+    margin: auto;
+    justify-content: space-around;
+}
+.donate-plan-article{
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10);
+    padding: 15px;
+
+}
+.icon{
+    margin-bottom: 10px;
+}
+.sub-title{
+    margin-bottom: 10px;
+    color: #121212;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
 }
